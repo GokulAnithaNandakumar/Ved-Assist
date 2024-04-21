@@ -30,7 +30,7 @@ function Shop() {
         setSpinner("loader");
         await axios({
             method: "POST",
-            url: "http://127.0.0.1:8000/shop/search",
+            url: "https://vedassist-kil3.onrender.com",
             data: Search,
             headers: {
                 'accept': 'application/json',
