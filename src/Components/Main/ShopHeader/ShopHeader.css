@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Acme|Alegreya|Alegreya+Sans|Anton|Archivo|Archivo+Black|Archivo+Narrow|Arimo|Arvo|Asap|Asap+Condensed|Bitter|Bowlby+One+SC|Bree+Serif|Cabin|Cairo|Catamaran|Crete+Round|Crimson+Text|Cuprum|Dancing+Script|Dosis|Droid+Sans|Droid+Serif|EB+Garamond|Exo|Exo+2|Faustina|Fira+Sans|Fjalla+One|Francois+One|Gloria+Hallelujah|Hind|Inconsolata|Indie+Flower|Josefin+Sans|Julee|Karla|Lato|Libre+Baskerville|Libre+Franklin|Lobster|Lora|Mada|Manuale|Maven+Pro|Merriweather|Merriweather+Sans|Montserrat|Montserrat+Subrayada|Mukta+Vaani|Muli|Noto+Sans|Noto+Serif|Nunito|Open+Sans|Open+Sans+Condensed:300|Oswald|Oxygen|PT+Sans|PT+Sans+Caption|PT+Sans+Narrow|PT+Serif|Pacifico|Passion+One|Pathway+Gothic+One|Play|Playfair+Display|Poppins|Questrial|Quicksand|Raleway|Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab|Ropa+Sans|Rubik|Saira|Saira+Condensed|Saira+Extra+Condensed|Saira+Semi+Condensed|Sedgwick+Ave|Sedgwick+Ave+Display|Shadows+Into+Light|Signika|Slabo+27px|Source+Code+Pro|Source+Sans+Pro|Spectral|Titillium+Web|Ubuntu|Ubuntu+Condensed|Varela+Round|Vollkorn|Work+Sans|Yanone+Kaffeesatz|Zilla+Slab|Zilla+Slab+Highlight');
+
+h1, h2, h3 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+
+p{
+  font-weight: 1rem;
+}
+  
+#shopheader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: transparent;
+}
+
+#shopheader h1 {
+  padding-top: 50px;
+  color: var(--Logo-font-colour, #44C139);
+  text-align: center;
+  font-family: Dancing Script;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+  
+#shopheader h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 20px;
+}
+
+#shopheader h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+  
+
+
+@media only screen and (max-width: 1028px) {
+#shopheader h1 {
+    font-size: 5rem;
+  }
+
+#shopheaderh2 { 
+    font-size: 2rem;
+  }
+
+ #shopheader h3 { 
+    font-size: 1rem;
+  }
+
+  #shopheader button {
+    margin-right: 0rem;
+  }
+  #shopheader button {
+    margin-right: 0rem;
+  }
+
+}
+
+@media only screen and (max-width: 768px) { }
+
+
+#button1 {
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  color: #fff;
+  line-height: 1.5;
+  vertical-align: middle;
+  padding: 5px 20px;
+  border-radius: 2rem;
+  transition: 0.3s ease;
+  background: #44C139;
+  border: .2rem solid #44C139;
+  box-shadow: 0 0 1rem #44C139;
+  margin-left: 5rem;
+  transition: 0.3s ease;
+  margin-top: 1.75rem;
+}
+
+#button1:nth-child(2) {
+    margin-right: 0;
+}
+
+#button1:hover {
+    box-shadow: none;
+}
