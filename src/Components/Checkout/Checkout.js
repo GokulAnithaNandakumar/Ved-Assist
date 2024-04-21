@@ -15,7 +15,7 @@ function Checkout({togglePopup, data}) {
     }
     await axios({
         method: "POST",
-        url: "http://127.0.0.1:8000/buy",
+        url: "https://vedassist-kil3.onrender.com/buy",
         data: info,
         headers: {
             'accept': 'application/json',
