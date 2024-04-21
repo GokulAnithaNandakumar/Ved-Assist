@@ -43,7 +43,7 @@ function Predict() {
         }
         await axios({
             method: "POST",
-            url: "http://127.0.0.1:8000/predict",
+            url: "https://vedassist-kil3.onrender.com/predict",
             data: data,
             headers: {
                 'accept': 'application/json',
