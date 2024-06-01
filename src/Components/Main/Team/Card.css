@@ -1,6 +1,8 @@
 .card {
     display: flex;
     flex-direction: column;
+    height: 20rem;
+    width: 15rem !important;
 }
 
 #dev-div {
@@ -16,11 +18,12 @@
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(17, 25, 40, 0.5);
     /* border: 1px solid rgba(255, 255, 255, 0.125); */
-    margin: 2rem;
+    /* margin: 2rem; */
     padding: 4rem 2rem;
     padding-bottom: 0;
-    height: fit-content;
-    min-width: 25%;
+    height: 22rem !important;
+    width: 15rem !important;
+    cursor: default;
 }
   
   #dev-div h3 {
@@ -32,8 +35,15 @@
  
   #dev-img{
     position: relative;
-    bottom: -5.5rem;
+    bottom: -3rem;
+    /* left: -1.8rem; */
     z-index: 10;
+  }
+
+  #dev-img img {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
   }
 
   #dev-div .socials ul {
@@ -68,5 +78,7 @@
   @media only screen and (max-width: 1028px) {
     .card {
         transform: translateY(-4rem);
+        margin-top: 5rem;
+        width: 15rem !important;
     }
   }

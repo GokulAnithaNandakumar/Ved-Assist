@@ -1,12 +1,14 @@
 #team{
   min-height: 100vh;
   padding-top: 8rem;
+  padding-bottom: 8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-left: 10rem;
   padding-right: 10rem;
   text-align: center;
+  gap: auto;
 }
 
 #team h1 {
@@ -19,6 +21,10 @@
   /* margin-right: 10rem; */
   display: grid;
   grid-template-columns: auto auto auto auto;
+  gap: 1rem;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
   transform: translateY(-3rem);
 }
 
@@ -42,11 +48,13 @@
     padding-top: 4rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    padding-bottom: 0rem;
   }
 
   #team .team-row {
     margin-right: 0.25rem;
     display: grid;
     grid-template-columns: auto;
+    margin-top: 2rem;
   }
 }
